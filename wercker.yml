@@ -6,9 +6,7 @@ box:
 dev:
   steps:
     - internal/watch:
-        code: |
-          go build ./...
-          ./source
+        code: go run main.go
         reload: true
 
 # Build definition
